@@ -1,0 +1,25 @@
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#employees {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#employees td,
+#employees th {
+  border: 1px solid #808b96;
+  padding: 8px;
+}
+
+#employees th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #2980b9;
+  color: white;
+}
