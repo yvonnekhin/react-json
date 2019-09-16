@@ -1,13 +1,13 @@
 import React from "react";
 import logo from "./logo.svg";
-import GetEmployees from "./components/GetEmployees";
+import EmployeesTable from "./components/EmployeesTable";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <h2 className="header">Employee List</h2>
-      <GetEmployees />
+      <EmployeesTable />
     </div>
   );
 }
